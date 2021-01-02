@@ -1,0 +1,126 @@
+.sample-cont{
+    background-image: linear-gradient(
+        60deg,
+        #570091,
+        #7522b6
+    );
+    padding-top: 50px;
+    padding-bottom: 150px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.sample-inner{
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sample-heading{
+    width: 100%;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.sample-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.heading-block-background{
+    background-color: rgba(0,0,0,0.1);
+    display: inline-block;
+    padding: 5px 40px;
+    box-shadow: 1px 16px 20px rgba(0, 0, 0, 0.17);
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.sample-title-1{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.sample{
+    width: 300px;
+    height: 430px;
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+    background-color: rgba(255,255,255,1);
+    /* border: 2px solid rgb(158, 158, 158); */
+    box-shadow: 16px 20px 20px rgba(0, 0, 0, 0.18);
+    color: black;
+    
+}
+
+.sample:hover{
+    transform: scale(1.04) ;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+    cursor: default;
+}
+
+.sample-image{
+    width: 100%;
+    height: 170px;
+    position: relative;
+}
+
+.sample-text{
+    width: 100%;
+    height: 200px;
+}
+
+.sample-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sample-title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.sample-info{
+    width: 100%;
+    height: 150px;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.sample-links{
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+    display: flex;
+
+}
+
+.sample-links a{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(46, 102, 168);
+    text-decoration: none;
+    padding: 10px;
+}
